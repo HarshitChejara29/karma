@@ -5,12 +5,12 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 
 const Header = () => {
   return (
       <Popover className={"sticky z-50 mx-auto flex items-center sm:px-28 px-6 py-2 h-24 bg-[#20282F]"}>
-        <Link href="/"><img src="/Logo.svg" width="50" height="50" className="hidden sm:block"></img></Link>
+        <Link href="/"><Image src="/Logo.svg" alt="logo" width={50} height={50} className="hidden sm:block"></Image></Link>
         <div className="grow bg-transparent">
           <div className="hidden sm:flex items-center justify-left ml-8 gap-2 md:gap-8">
             <Link href="#" className="text-white font-light">Services</Link>

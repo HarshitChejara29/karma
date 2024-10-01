@@ -205,7 +205,7 @@ export default function App() {
         <div className="container px-28 py-20 mx-auto">
             <div className="lg:w-full flex flex-col sm:flex-row sm:items-center items-start mx-auto gap-28">
             <h1 className="sm:pr-16 text-5xl font-medium title-font text-white">Our <br/>Services</h1>
-            <p className="w-1/2 sm:pr-16 ">Enjoy a world of convenience with [Super App Name]. From essentials like rides, food, and finance to lifestyle perks like shopping, entertainment, and travel, we've got you covered. Experience personalized recommendations and AI-powered features for a smarter, simpler life.</p>
+            <p className="w-1/2 sm:pr-16 ">Enjoy a world of convenience with [Super App Name]. From essentials like rides, food, and finance to lifestyle perks like shopping, entertainment, and travel, we have got you covered. Experience personalized recommendations and AI-powered features for a smarter, simpler life.</p>
             <a href="https://play.google.com/store/apps?hl=en_IN" target="_blank" rel="noopener noreferrer">
             <button type="button" className="text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white py-2 px-8 leading-6 bg-[#79CDC5]">Download Now</button>
             </a>

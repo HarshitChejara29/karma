@@ -191,7 +191,7 @@ export default function App() {
         <section className="text-[#A6A6A6] body-font bg-[#181C23]">
         <div className="container px-12 justify-center text-center">
             <h1 className="text-3xl font-medium title-font text-white text-center py-8">Our Services</h1>
-            <p className="leading-relaxed text-base text-center mb-6 leading-[30px]">Enjoy a world of convenience with [Super App Name]. From essentials like rides, food, and finance to lifestyle perks like shopping, entertainment, and travel, we've got you covered. Experience personalized recommendations and AI-powered features for a smarter, simpler life.</p>
+            <p className="leading-relaxed text-base text-center mb-6 leading-[30px]">Enjoy a world of convenience with [Super App Name]. From essentials like rides, food, and finance to lifestyle perks like shopping, entertainment, and travel, we have got you covered. Experience personalized recommendations and AI-powered features for a smarter, simpler life.</p>
             <a href="https://play.google.com/store/apps?hl=en_IN" target="_blank" rel="noopener noreferrer">
                 <button type="button" className="text-center text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white py-2 px-8 leading-6 bg-[#79CDC5]">Download Now</button>
             </a>
