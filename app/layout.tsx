@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import Head from './head';
-import Header from './common/header';
-import Footer from './common/footer';
+import Header from '../components/globals/header';
+import Footer from '../components/globals/footer';
 // import Signup from './signup/page';
 
 export default function RootLayout({
