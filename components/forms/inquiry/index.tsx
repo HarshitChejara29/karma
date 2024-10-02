@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const InquiryForm = () => {
     return (
-        <div className="bg-[#222938] rounded-lg lg:p-16 p-5 flex flex-col md:ml-auto py-16 w-full relative z-10 shadow-md" >
+        <div className="bg-[#222938] rounded-lg lg:p-16 p-5 flex flex-col md:ml-auto py-16 md:py-28 w-full relative z-10 shadow-md" >
             <div className="flex justify-center items-center">
                 <Image 
                 alt="logo" 
