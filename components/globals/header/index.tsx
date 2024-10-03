@@ -6,6 +6,7 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import Image from "next/image";
+import Button from "../button";
 
 const Header = () => {
   return (
@@ -60,7 +61,7 @@ const Header = () => {
                   <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#">Work With Us</Link>
                   <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#">Blog</Link>
                   <a href="https://play.google.com/store/apps?hl=en_IN" target="_blank" rel="noopener noreferrer">
-                  <button type="button" className="text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white py-2 px-8 leading-6 bg-[#79CDC5]">Download Now</button>
+                  <Button/>
                   </a>
                   </nav>
               </div>
@@ -71,9 +72,7 @@ const Header = () => {
         </Transition>
 
         <div className="hidden  sm:block  py-7 h-24">
-          <a href="https://play.google.com/store/apps?hl=en_IN" target="_blank" rel="noopener noreferrer">
-            <button type="button" className="text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white py-2 px-8 leading-6 bg-[#79CDC5]">Download Now</button>
-          </a>
+          <Button/>
         </div>
       </Popover>
   );
