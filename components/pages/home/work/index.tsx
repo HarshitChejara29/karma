@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,10 +26,10 @@ const Work = () => {
                         <p className="leading-relaxed lg:mb-8 mb-5 text-gray-400" data-aos="slide-up">{work.description}</p>
                         <p className="leading-relaxed lg:mb-8 mb-5 text-xl font-bold" data-aos="slide-up">{work.subtitle}</p>
                         <p className="leading-relaxed mb-8 text-gray-400" data-aos="slide-up">{work.author}</p>
-                        <a className="inline-flex items-center hidden md:block" data-aos="slide-up">
+                        <div className="inline-flex items-center hidden md:block" data-aos="slide-up">
                         <span className="flex lg:gap-5 md:gap-2">
                             {workData.Users.map((users, index) => (
-                            <span className="flex lg:gap-5 md:gap-2">
+                            <span key={index} className="flex lg:gap-5 md:gap-2">
                                 {users.image && users.image.map((image, imgIndex) => (
                                 <Image key={imgIndex} src={image} alt="user1" width="50" height="50" className="w-16 h-16 rounded-full flex-shrink-0 object-cover object-center"></Image>
                                 ))}
@@ -37,7 +37,7 @@ const Work = () => {
                             ))}
                             <Image alt="playbutton" src="/playbutton.svg" width="50" height="50" className="w-16 h-16 rounded-full flex-shrink-0 object-cover object-center"></Image>
                         </span>
-                        </a>
+                        </div>
                     </div>
                     ))}
                 </div>
