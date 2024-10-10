@@ -6,7 +6,7 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 import { XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import Image from "next/image";
-import Button from "../button";
+
 
 const Header = () => {
   return (
@@ -14,9 +14,9 @@ const Header = () => {
         <Link href="/"><Image src="/Logo.svg" alt="logo" width={50} height={50} className="hidden sm:block"></Image></Link>
         <div className="grow bg-transparent">
           <div className="hidden sm:flex items-center justify-left ml-8 gap-2 md:gap-8">
-            <Link href="#" className="text-white font-light">Services</Link>
-            <Link href="#" className="text-white font-light">Work With Us</Link>
-            <Link href="#" className="text-white font-light">Blog</Link>
+            <Link href="#services" className="text-white font-light">Services</Link>
+            <Link href="#work" className="text-white font-light">Work With Us</Link>
+            <Link href="#blog" className="text-white font-light">Blog</Link>
           </div>
         </div>
 
@@ -57,12 +57,12 @@ const Header = () => {
               <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {/* <Link className="text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 font-bold" href="">Services</Link>   */}
-                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#">Services</Link>
-                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#">Work With Us</Link>
-                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#">Blog</Link>
-                  <a href="https://play.google.com/store/apps?hl=en_IN" target="_blank" rel="noopener noreferrer">
-                  <Button/>
-                  </a>
+                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#services">Services</Link>
+                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#work">Work With Us</Link>
+                  <Link className="text-white focus:outline-none focus:ring-2 focus:ring-inset px-2 font-bold" href="#blog">Blog</Link>
+                    <a href="#work" rel="noopener noreferrer">
+                        <button type="button" className="text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white tracking-tighter py-2 px-8 leading-6 bg-[#79CDC5]">Work with us</button>
+                    </a>
                   </nav>
               </div>
 
@@ -72,7 +72,10 @@ const Header = () => {
         </Transition>
 
         <div className="hidden  sm:block  py-7 h-24">
-          <Button/>
+          {/* <Button/> */}
+          <a href="#work" rel="noopener noreferrer">
+              <button type="button" className="text-white rounded-full border-2 border-[#224A50] hover:text-[#1f272e] hover:bg-white tracking-tighter py-2 px-8 leading-6 bg-[#79CDC5]">Work with us</button>
+          </a>
         </div>
       </Popover>
   );

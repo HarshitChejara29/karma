@@ -5,7 +5,7 @@ import Button from "@/components/globals/button";
 
 const Services = () => {
     return (
-        <section className="text-[#A6A6A6] body-font bg-[#181C23]">
+        <section className="text-[#A6A6A6] body-font bg-[#181C23]" id="services">
         <div className="container lg:px-28 px-12 py-1 mx-auto">
             {servicesData.Content.map((content, index) => (
             <div key={index} className="lg:w-full flex flex-col lg:mt-20 mt-10 md:flex-row md:items-start items-center mx-auto lg:gap-28 md:gap-12 gap-8">

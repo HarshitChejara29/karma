@@ -13,7 +13,7 @@ const Expectations = () => {
     }, []);
 
     return (
-        <section className="text-white body-font overflow-hidden bg-[#292D34]">
+        <section className="text-white body-font overflow-hidden bg-[#292D34]" id="blog">
             <div className="container lg:px-28 px-12 lg:py-5 lg:mb-10 py-6 mx-auto">
                 <div className="flex flex-wrap -m-12">
                     <div className="p-12 md:w-1/2 flex flex-col items-start lg:text-left md:text-left text-center">

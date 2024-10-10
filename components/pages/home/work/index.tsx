@@ -16,7 +16,7 @@ const Work = () => {
 
 
     return (
-    <section className="text-white body-font overflow-hidden bg-[#0C0F18]">
+    <section className="text-white body-font overflow-hidden bg-[#0C0F18]" id="work">
         <div className="container lg:px-28 px-8 lg:py-24 mt-10 mx-auto">
             <div className="flex flex-wrap -m-12">
                 <div className="p-12 md:w-1/2 flex flex-col items-center lg:text-left text-center">

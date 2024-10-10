@@ -18,7 +18,7 @@ export const expectationsData = {
     ],
     "Content": [
       {
-        "title": "What You wanna expect from us",
+        "title": "India's 1st & Real Super App",
         "description": "Experience the future of convenience with 100 Karma. Our super app offers a comprehensive suite of essential services, from transportation and food delivery to financial management and shopping. Elevate your lifestyle with entertainment, health, travel, and social features tailored to your preferences. Discover a world of personalized experiences as AI recommends services and products just for you.",
         "rating": "4.9/ 5 rating",
         "platform": "On Google Playstore"
