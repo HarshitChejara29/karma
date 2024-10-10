@@ -36,7 +36,7 @@ const Hero = () => {
                             className="w-36 h-36 rounded-full object-cover"
                             />
                         </div>
-                        <h1 className="lg:text-6xl text-3xl tracking-tighter font-medium title-font lg:mt-5 md:mt-10 lg:mb-5 mb-3 text-white">THE BAAP OF ALL APPs</h1>
+                        <h1 className="lg:text-5xl text-3xl tracking-tighter font-medium title-font lg:mt-5 md:mt-10 lg:mb-5 mb-3 text-white">THE BAAP OF ALL APPs</h1>
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base lg:px-3 px-8">Discover a world of convenience at your fingertips with 100 Karma. Your ultimate digital companion for everything you need, from daily essentials to extraordinary experiences.</p>
                     </div>
                     <div className="item-center object-center justify-center">
