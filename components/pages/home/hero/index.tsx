@@ -9,9 +9,17 @@ const Hero = () => {
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
-      "/images/mobile_mockup.png",
-      "/images/mobile_mockup.png",
-      "/images/mobile_mockup.png",
+      "/images/Frame.png",
+      "/images/Frame-1.png",
+      "/images/Frame-2.png",
+      "/images/Frame-3.png",
+      "/images/Frame-4.png",
+      "/images/Frame-5.png",
+      "/images/Frame-6.png",
+      "/images/Frame-7.png",
+      "/images/Frame-8.png",
+      "/images/Frame-9.png",
+      "/images/Frame-10.png",
     ];
     // Auto-slide effect
     useEffect(() => {
@@ -51,8 +59,8 @@ const Hero = () => {
                 <div className="container flex justify-center items-center py-10 lg:px-0 px-5">
                     <div className="lg:w-3/4 md:w-5/6 lg:h-[500px] md:h-[400px] h-[250px] bg-[#343a41] flex rounded-3xl">
                         <div className="flex flex-col lg:gap-48 md:gap-48 lg:ml-4 md:ml-8 gap-24 ml-5">
-                            <Image src="/images/notification.png" alt="notify" className="lg:w-[590px] md:w-[170px] w-[600px] lg:h-[130px] h-[40px] animate-bounce" width={200} height={200} />
-                            <Image src="/images/chat-icon.png" alt="chat" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce z-10" width={200} height={200} />
+                            <Image src="/images/notification.png" alt="notify" className="lg:w-[900px] md:w-[450px] w-[600px] lg:h-[130px] h-[40px] animate-bounce" width={200} height={200} />
+                            <Image src="/Cylinder.svg" alt="chat" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce z-10" width={200} height={200} />
                         </div>
                         <div className="flex justify-center items-end relative overflow-hidden">
                             <div
@@ -67,16 +75,16 @@ const Hero = () => {
                                 >
                                     <Image
                                     src={src} alt={`carousel-${index}`}
-                                    className="lg:w-[370px] md:w-[280px] w-[400px] object-contain"
+                                    className="lg:w-[245px] md:w-[190px] w-[120px] object-contain"
                                     width={500} height={500}
                                     />
                                 </div>
                                 ))}
                             </div>
                         </div>
-                        <div className="flex lg:gap-36 lg:mr-40 gap-14 mr-12">
-                            <Image src="/images/right-icon.png" alt="right" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce" width={200} height={200} />
-                            <Image src="/images/db-icon.png" alt="db" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce z-10 lg:mt-36 mt-20" width={200} height={200} />
+                        <div className="flex lg:gap-36 gap-14 lg:mr-24 md:mr-14 mr-10">
+                            <Image src="/FASTag.svg" alt="right" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce" width={200} height={200} />
+                            <Image src="/Electricity.svg" alt="db" className="lg:w-[50px] lg:h-[50px] md:w-[40px] md:h-[40px] w-[20px] h-[20px] animate-bounce z-10 lg:mt-36 mt-20 " width={200} height={200} />
                         </div>
                     </div>
                 </div>
