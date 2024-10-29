@@ -45,6 +45,18 @@ export const servicesData = {
         {
             "image": ["/heart.svg"],
             "imagename": "Marriage hall"
+        },
+        {
+            "image": ["/job.svg"],
+            "imagename": "Job search"
+        },
+        {
+            "image": ["/matrimony.svg"],
+            "imagename": "Matrimony"
+        },
+        {
+            "image": ["/medicine.svg"],
+            "imagename": "Medicine order"
         }
     ]
 };
